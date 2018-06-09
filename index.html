@@ -12,12 +12,12 @@
     }
 	header{
 		background-color: #74e5a5;
-		height: 80px;
 	}
 
 	header nav{
 	   padding-right: 60px;
 	   padding-left: 60px;
+	   height: 80px;
 	}
 
 	header ul li{
@@ -32,6 +32,7 @@
 	#seccion-principal{
 		background-color: #f4f5f7;
 		width: 100%;
+		clear: both;
 	}
 
 	.wrapper{
@@ -48,6 +49,16 @@
     footer{
     	height: 40px;
     	background-color: #42b3f4;
+    }
+
+    @media (max-width: 900px){
+    	.columna{
+    		width: 100%;
+    		margin-bottom: 20px;
+    	}
+    	header ul li{
+    		padding-right: 10;
+    	}
     }
 </style>
 <body>
