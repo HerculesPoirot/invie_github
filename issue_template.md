@@ -2,4 +2,4 @@
 
 Por favor indica como y donde puedo visualizar el problema
 
-## Hola
+## En cual versión ocurre y en cual sistema operativo
